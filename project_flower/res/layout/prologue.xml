@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ViewFlipper android:layout_width="wrap_content" android:layout_height="wrap_content"
+                 android:inAnimation="@android:anim/fade_in"
+                 android:id="@+id/prologflipper"
+                 android:autoStart="false">
+        <include android:id="@+id/pictbook" layout="@layout/picturebook"/>
+    </ViewFlipper>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/skipbutton"
+            android:text="Skip>>"
+            android:background="@null"
+            android:textColor="#000000"
+            android:textSize="40dp" android:textStyle="bold" android:typeface="sans"
+            android:layout_alignParentEnd="false" android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"/>
+</RelativeLayout>

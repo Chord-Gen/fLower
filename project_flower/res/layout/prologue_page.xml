@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+            android:id="@+id/prologue_page"
+            android:src="@drawable/bookpage"
+            android:focusable="true"
+            android:scaleType="fitXY"/>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+               android:id="@+id/prologue_thumbnail"
+               android:src="@drawable/prologue_base"
+               android:focusable="true"
+               android:scaleX="0.6"
+               android:scaleY="0.6"
+               android:alpha="150"
+
+            />
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textSize="50sp"
+            android:text="PROLOGUE"
+
+              android:layout_alignParentEnd="false" android:layout_alignParentStart="false"
+              android:layout_alignParentBottom="false" android:layout_alignParentRight="false"
+              android:layout_alignParentLeft="false" android:layout_alignWithParentIfMissing="false"
+              android:gravity="center" android:textColor="#000000"/>
+
+</RelativeLayout>
